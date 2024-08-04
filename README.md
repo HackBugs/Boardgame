@@ -80,7 +80,7 @@ chmod +x 1sh - Change permissions to executable
  **EC2 > Number of instances - 1 > Ubuntu Server 22.4 > t2.large > Configure storage 30 GB**
 - Jenkins - EC2-4
 
-  **EC2 > Number of instances - 1 > Ubuntu Server 22.4 > t2.large > Configure storage 20 GB**
+ **EC2 > Number of instances - 1 > Ubuntu Server 22.4 > t2.large > Configure storage 20 GB**
 - For Monitoring - EC2-7
     - Prometheus
         - Blackbox-exporter
