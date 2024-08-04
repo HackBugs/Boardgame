@@ -61,7 +61,7 @@ EC2 > Security Groups > launch-wizard-2 > Edit inbound rules
   - Private
   - Isolated environment
   - Deployment will secure
-  - (https://github.com/jaiswaladi246/DevOps_Shack_Ultimate_Pipeline_12_march/blob/main/PHASE-1/Screenshot%202024-03-13%20002123.png)
+  - [inbound rules](https://github.com/jaiswaladi246/DevOps_Shack_Ultimate_Pipeline_12_march/blob/main/PHASE-1/Screenshot%202024-03-13%20002123.png)
 
 #### Create this all EC2 Instances
 
