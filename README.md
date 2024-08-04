@@ -67,17 +67,17 @@ EC2 > Security Groups > launch-wizard-2 > Edit inbound rules
 
 **EC2 > Number of instances - 3 > Ubuntu Server 22.4 > t2.medium > Configure storage 25 GB**
  - Master - EC2-1
-    - Slave1 - EC2-2
-    - Slave2 - EC2-3
+ - Slave1 - EC2-2
+ - Slave2 - EC2-3
 
- **EC2 > Number of instances - 2 > Ubuntu Server 22.4 > t2.medium > Configure storage 20 GB**
+**EC2 > Number of instances - 2 > Ubuntu Server 22.4 > t2.medium > Configure storage 20 GB**
 - SonarQube - EC2-5
 - Nexus - EC2-6
 
- **EC2 > Number of instances - 1 > Ubuntu Server 22.4 > t2.large > Configure storage 30 GB**
+**EC2 > Number of instances - 1 > Ubuntu Server 22.4 > t2.large > Configure storage 30 GB**
 - Jenkins - EC2-4
 
- **EC2 > Number of instances - 1 > Ubuntu Server 22.4 > t2.large > Configure storage 20 GB**
+**EC2 > Number of instances - 1 > Ubuntu Server 22.4 > t2.large > Configure storage 20 GB**
 - For Monitoring - EC2-7
     - Prometheus
         - Blackbox-exporter
