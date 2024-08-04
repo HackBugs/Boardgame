@@ -51,3 +51,27 @@ This web application displays lists of board games and their reviews. While anyo
   - username: bugs    |     password: bunny (user role)
   - username: daffy   |     password: duck  (manager role)
 5. You can also sign-up as a new user and customize your role to play with the application! 😊
+____________________________________________________________________________________________________________
+
+## Installation Process DevOps Project
+#### Create this all EC2 Instances 
+ - Master - EC2-1
+    - Slave1 - EC2-2
+    - Slave2 - EC2-3
+- Jenkins - EC2-4
+- SonarQube - EC2-5
+- Nexus - EC2-6
+- For Monitoring - EC2-7
+    - Prometheus
+        - Blackbox-exporter
+        - https://github.com/prometheus/blackbox_exporter
+    - Grafana
+## Install Plugins in Jenkins for this Project
+  - 
+
+
+
+
+
+
+  
