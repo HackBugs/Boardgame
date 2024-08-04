@@ -69,7 +69,7 @@ ________________________________________________________________________________
     - Grafana
       
 ## Install Plugins in Jenkins for this Project
-#### Install And configure inside | Jenkins > Tools
+####  After Installation And configure inside | Jenkins > Tools
   - JDK - Eclipse Temurin installer
   - Maven Integration
   - Maven - Config File Provider
