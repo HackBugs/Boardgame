@@ -53,15 +53,34 @@ This web application displays lists of board games and their reviews. While anyo
 5. You can also sign-up as a new user and customize your role to play with the application! 😊
 ____________________________________________________________________________________________________________
 
-## Installation Process DevOps Project
-#### Create this all EC2 Instances 
+# ✍️ Installation Process DevOps Project
 
+## Downlaod Packeges use with script
+```sh
+vi 1.sh > Paste inside if have more installation pkg
+chmod +x 1sh - Change permissions to executable 
+./1.sh - execute run script
+```
+## AWS Network Environment setup
+  - Private
+  - Isolated environment
+  - Deployment will secure
+
+#### Create this all EC2 Instances
+
+**EC2 > Number of instances - 3 > Ubuntu Server 22.4 > t2.medium > Configure storage 25 GB**
  - Master - EC2-1
     - Slave1 - EC2-2
     - Slave2 - EC2-3
-- Jenkins - EC2-4
+
+ **EC2 > Number of instances - 2 > Ubuntu Server 22.4 > t2.medium > Configure storage 20 GB**
 - SonarQube - EC2-5
 - Nexus - EC2-6
+
+ **EC2 > Number of instances - 1 > Ubuntu Server 22.4 > t2.large > Configure storage 30 GB**
+- Jenkins - EC2-4
+
+  **EC2 > Number of instances - 1 > Ubuntu Server 22.4 > t2.large > Configure storage 20 GB**
 - For Monitoring - EC2-7
     - Prometheus
         - Blackbox-exporter
@@ -84,8 +103,6 @@ ________________________________________________________________________________
   - Kubernetes Client API
   - Kubernetes Credentials
 ____________________________________________________________________________________________________________
-
-
 
 
 
