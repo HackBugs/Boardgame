@@ -53,7 +53,7 @@ This web application displays lists of board games and their reviews. While anyo
 5. You can also sign-up as a new user and customize your role to play with the application! 😊
 ____________________________________________________________________________________________________________
 
-# ✍️ Installation setups Process DevOps Project
+# ✍️ Installation Setups Process DevOps Project
 
 ## AWS - VPC 
 ## AWS Network Environment setup
