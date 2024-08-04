@@ -55,6 +55,7 @@ ________________________________________________________________________________
 
 ## Installation Process DevOps Project
 #### Create this all EC2 Instances 
+
  - Master - EC2-1
     - Slave1 - EC2-2
     - Slave2 - EC2-3
@@ -66,8 +67,25 @@ ________________________________________________________________________________
         - Blackbox-exporter
         - https://github.com/prometheus/blackbox_exporter
     - Grafana
+      
 ## Install Plugins in Jenkins for this Project
-  - 
+#### Install And configure inside | Jenkins > Tools
+  - JDK - Eclipse Temurin installer
+  - Maven Integration
+  - Maven - Config File Provider
+  - Maven - Pipeline Maven Integration
+  - Sonar - SonarQube Scanner - This is tool
+  - Sonar - sonarQube server
+  - Docker
+  - Docker Pipeline
+  - Docker-Build-step
+  - Kubernetes
+  - Kubernetes CLI
+  - Kubernetes Client API
+  - Kubernetes Credentials
+____________________________________________________________________________________________________________
+
+
 
 
 
