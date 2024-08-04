@@ -55,16 +55,13 @@ ________________________________________________________________________________
 
 # ✍️ Installation Process DevOps Project
 
-## Downlaod Packeges use with script
-```sh
-vi 1.sh > Paste inside if have more installation pkg
-chmod +x 1sh - Change permissions to executable 
-./1.sh - execute run script
-```
+## AWS - VPC 
 ## AWS Network Environment setup
+EC2 > Security Groups > launch-wizard-2 > Edit inbound rules
   - Private
   - Isolated environment
   - Deployment will secure
+  - (https://github.com/jaiswaladi246/DevOps_Shack_Ultimate_Pipeline_12_march/blob/main/PHASE-1/Screenshot%202024-03-13%20002123.png)
 
 #### Create this all EC2 Instances
 
@@ -86,6 +83,13 @@ chmod +x 1sh - Change permissions to executable
         - Blackbox-exporter
         - https://github.com/prometheus/blackbox_exporter
     - Grafana
+ 
+## Downlaod Packeges use with script
+```sh
+vi 1.sh > Paste inside if have more installation pkg
+chmod +x 1sh - Change permissions to executable 
+./1.sh - execute run script
+```
       
 ## Install Plugins in Jenkins for this Project
 ####  After Installation And configure inside | Jenkins > Tools
