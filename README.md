@@ -1,5 +1,5 @@
 # BoardgameListingWebApp
-
+- [YouTube Video Step of this Project](https://youtu.be/NnkUGzaqqOc?si=QjOhsFCnG7ytVzVB)
 ## Description
 
 **Board Game Database Full-Stack Web Application.**
@@ -106,11 +106,27 @@ chmod +x 1sh - Change permissions to executable
   - Kubernetes CLI
   - Kubernetes Client API
   - Kubernetes Credentials
-____________________________________________________________________________________________________________
+______________________________________________________________________________________________________________________________________
 
-
-
-
-
-
-  
+### Kubernetes install - https://github.com/HackBugs/DevOps_Shack_Ultimate_Pipeline_12_march-2/blob/main/PHASE-1/2.%20K8-Setup.md
+  - Master - EC2-1
+  - Slave - EC2-2
+  - Slave - EC2-3
+### Docker install on both - https://docs.docker.com/engine/install/ubuntu/
+- SonarQube - EC2-4
+  ```sh
+  docker run -d --name sonar -p 9000:9000 sonarqube:lts-community
+  ```
+- Nexus - EC2-5
+  ```sh
+  docker run -d --name Nexus -p 8081:8081 sonatype/nexus3
+  ```
+- jenkins - EC2-6
+  - JDK
+  - run installtion script of jenkins
+  - install docker
+### Install one EC2-7 machine all three tools
+- Prometheus
+- Blackbox-exporter
+- Grafana
+______________________________________________________________________________________________________________________________________________
