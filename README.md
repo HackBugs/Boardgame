@@ -1,5 +1,6 @@
 # BoardgameListingWebApp
-- [YouTube Video Step for this Project](https://youtu.be/NnkUGzaqqOc?si=QjOhsFCnG7ytVzVB)
+- [**YouTube Video Step for this Project**](https://youtu.be/NnkUGzaqqOc?si=QjOhsFCnG7ytVzVB)
+- [**Requred Script to intall all tool follow this Repo**](https://github.com/HackBugs/DevOps_Shack_Ultimate_Pipeline_12_march-2)
 ## Description
 
 **Board Game Database Full-Stack Web Application.**
