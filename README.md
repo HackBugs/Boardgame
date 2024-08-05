@@ -1,5 +1,5 @@
 # BoardgameListingWebApp
-- [YouTube Video Step of this Project](https://youtu.be/NnkUGzaqqOc?si=QjOhsFCnG7ytVzVB)
+- [YouTube Video Step for this Project](https://youtu.be/NnkUGzaqqOc?si=QjOhsFCnG7ytVzVB)
 ## Description
 
 **Board Game Database Full-Stack Web Application.**
